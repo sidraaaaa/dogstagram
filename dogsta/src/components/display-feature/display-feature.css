@@ -1,0 +1,10 @@
+.display-feature {
+  display: block;
+  padding: 1%;;
+}
+
+/* changing dropdown menu's style */
+select{
+  border:1px solid #41533f;
+  color: rgb(137, 139, 255);
+}

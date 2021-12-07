@@ -1,10 +1,11 @@
 header {
-  background: #5851ff;
+  background: #51ff94;
   color: white;
   height: 56px;
   display: flex;
   align-items: center;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  animation:  changingColor 5s infinite linear;
 }
 
 h1 {
@@ -12,4 +13,11 @@ h1 {
   font-weight: 500;
   color: #fff;
   padding: 0 12px;
+  margin: 0 auto;
+
+}
+
+@keyframes changingColor {
+  from {background-color: #51ff94;}
+  to {background-color: #9f51ff;}
 }
